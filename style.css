@@ -76,8 +76,8 @@ button:hover{
 
 @media screen and (max-width: 900px) {
     button {
-        width: 80vw;
-        height: 10vh;
+        width: 70vw;
+        height: 8vh;
     }
 
     .btn-text {
