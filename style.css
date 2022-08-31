@@ -73,7 +73,7 @@ button:hover{
     color: #fff;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 900px) {
     button {
         width: 80vw;
         height: 30vh;
