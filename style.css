@@ -1,3 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+* {
+    font-family: 'Comfortaa', serif;
+    font-weight: 400;
+}
+
 body {
+    color: #fff;
     text-align: center;
+    margin: 0;
+    min-height: 90vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ), url(./img/aconcagua20161.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+h1{
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 5vw;
+    line-height: calc(8vw + 5px);
+}
+
+button{
+    margin-top: 50px;
+    width: 30vw;
+    height: 5vw;
+    background: linear-gradient(to right, #111 0%, #37b);
+    border: 2px #222 solid;
+    border-radius: 3vw;
+    color: #4a5;
+    box-shadow: 0 0 40px 5px #333;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-text {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3vw;
+    line-height: 0.5vw;
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+    letter-spacing: 0.5vw;
+    font-weight: 700;
+}
+
+button:hover{
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 40px 5px #37b;
+    border-color: #37b;
+    animation: kubachuba 5s linear infinite;
+}
+
+@keyframes kubachuba {
+    0% {filter: hue-rotate(0deg);}
+    100% {filter: hue-rotate(360deg);}
+}
+
+.contaner {
+    position: relative;
+    top: 25vh;
+    color: #fff;
 }
